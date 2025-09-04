@@ -9,3 +9,8 @@ A detailed, step-by-step guide to resolve the issue. Include any necessary comma
 1. **Step 1**:
 2. **Step 2**:
 3. **Step 3**:
+
+### Documentation Links
+Include links to any relevant external documentation or resources, such as official docs, StackOverflow threads, or training materials.
+
+- [Resource](link)

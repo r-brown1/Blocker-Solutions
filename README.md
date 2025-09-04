@@ -9,7 +9,7 @@ The **Blocker Solutions** documentation is designed to help us overcome technica
 1. [Getting Started](#getting-started)
 2. [Folder Structure](#folder-structure)
 3. [Contributing to Blocker Solutions](#contributing-to-blocker-solutions)
-4. [Blocker Solution Format](#blocker-solution-format)
+4. [Blocker Solution Template](#blocker-solution-template)
 5. [Training Weeks and Blocker Categories](#training-weeks-and-blocker-categories)
 
 ---
@@ -32,18 +32,16 @@ Each week has its own folder. Inside each folder, you will find markdown files t
 ```
 BlockerSolutions/
 ├── Week1/
-│ ├── blocker-FIRST_BLOCKER.md
-│ ├── blocker-SECOND_BLOCKER.md
+│ ├── BUG_blocker.md
+│ ├── ERR_blocker.md
+│ ├── SETUP_blocker.md
 │ └── ...
 ├── Week2/
-│ ├── blocker-FIRST_BLOCKER.md
-│ ├── blocker-SECOND_BLOCKER.md
+│ ├── BUG_blocker.md
+│ ├── ERR_blocker.md
+│ ├── SETUP_blocker.md
 │ └── ...
 ├── ...
-└── Week12/
-│ ├── blocker-FIRST_BLOCKER.md
-│ ├── blocker-SECOND_BLOCKER.md
-└── ...
 ```
 
 
@@ -56,10 +54,21 @@ Each markdown file follows a consistent format to ensure clarity and ease of nav
 Anyone can contribute to the **Blocker Solutions** repository. If you encounter a new blocker or solution not yet documented, please create a new markdown file in the appropriate week folder and submit it for review. 
 
 ### Steps for Contributing:
-1. **Identify the Blocker**: Ensure the problem you're solving is not already documented.
-2. **Create a New File**: Format the file name using the following convention: `blocker-<BLOCKER_TITLE>.md` (e.g., `blocker-BLOCKER_TITLE.md`).
-3. **Follow the Blocker Solution Format**: Use the structure outlined below.
-4. **Submit for Review**: Once completed, submit your file for review by the training leads or fellow trainees for accuracy and clarity.
+1. **Check Existing Blockers**: Ensure the problem you're solving is not already documented.
+2. **Create a New File**:
+
+    a. Blocker types are:
+   - `SETUP` for environment setup blockers
+   - `BUG` for unexpected behaviors
+   - `ERR` for errors
+   - `OTHER` if the blocker doesn't fall into any category:
+
+    b. Format the file name using the following convention: `<TYPE_title>.md` (e.g., `ENV_pip_install_error.md`). 
+
+    c. Use the [markdown template](#blocker-solution-template)
+
+3. **Follow the Blocker Solution Format**:
+4. **TODO: UPDATE REVIEW PROCESS - Submit for Review**: Once completed, submit your file for review...
 
 ### Example Submission Format:
 - **Title**: Provide a clear and descriptive title for the issue (try to keep it as short as possible).
@@ -76,18 +85,18 @@ Feel free to copy and paste from the `TEMPLATE.md` to ensure consistency. Each m
 ### Title
 A brief, descriptive title that highlights the problem.
 
+**Example:** ENV: Pip Install Error
+
 ### Problem Description
 1-2 sentences that explains the blocker. This description should provide enough context for someone unfamiliar with the issue to understand.
 
-Example:
+**Example**
 - "I'm trying to set up a Python project, but I'm getting errors when running `pip install -r requirements.txt`. It's preventing the project from installing the necessary dependencies to run properly."
 
 ### Solution
 A detailed, step-by-step guide to resolve the issue. Include any necessary commands, code snippets, or screenshots to clarify the solution.
 
-Example:
-### Solution
-
+**Example**
 1. **Step 1**: Ensure you're in the root of your Python project directory.
 
 2. **Step 2**: (Optional but recommended) Create and activate a virtual environment:
@@ -109,8 +118,7 @@ Example:
 
 Include links to any relevant external documentation or resources, such as official docs, StackOverflow threads, or training materials.
 
-**Example:**
-
+**Example**
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Virtual Environments in Python](https://docs.python.org/3/library/venv.html)
 
