@@ -85,7 +85,7 @@ Feel free to copy and paste from the `TEMPLATE.md` to ensure consistency. Each m
 ### Title
 A brief, descriptive title that highlights the problem.
 
-**Example:** ENV: Pip Install Error
+**Example:** SETUP: Pip Install Error
 
 ### Problem Description
 1-2 sentences that explains the blocker. This description should provide enough context for someone unfamiliar with the issue to understand.
