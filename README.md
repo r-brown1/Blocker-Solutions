@@ -71,7 +71,7 @@ Anyone can contribute to the **Blocker Solutions** repository. If you encounter 
 
 ## Blocker Solution Template
 
-Feel free to copy and paste this template directly to ensure consistency. Each markdown file should follow this structure:
+Feel free to copy and paste from the `TEMPLATE.md` to ensure consistency. Each markdown file should follow this structure:
 
 ### Title
 A brief, descriptive title that highlights the problem.
