@@ -21,7 +21,7 @@ This document serves as a reference for tackling technical blockers encountered 
 ### How to Use This Documentation:
 - Browse the week-based folders to identify blockers related to a specific topic.
 - Each file will have a clear title indicating the issue, followed by a brief description of the problem, a step-by-step guide for resolution, and links to any relevant external resources.
-- If you encounter a new blocker that is not documented yet, you can contribute by creating a new markdown file, following the format described below.
+- If you encounter a new blocker that is not documented yet, you can contribute by creating a new markdown file and following the format described below.
 
 ---
 
@@ -30,7 +30,7 @@ This document serves as a reference for tackling technical blockers encountered 
 Each week has its own folder. Inside each folder, you will find markdown files that document specific blockers for the topics referenced in the [category links](#training-weeks-and-blocker-categories) below. The structure will look like this:
 
 ```
-BlockerSolutions/
+Blocker-Solutions/
 ├── Week1/
 │ ├── BUG_blocker.md
 │ ├── ERR_blocker.md
@@ -45,13 +45,13 @@ BlockerSolutions/
 ```
 
 
-Each markdown file follows a consistent format to ensure clarity and ease of navigation. If you run into a blocker not yet listed, please follow the contribution guidelines provided in the next section.
 
 ---
 
 ## Contributing to Blocker Solutions
+Feel free to follow the steps below to add your solution for others to reference.
+Anyone can contribute to the repository, and the following conventions are for clarity, consistency, and ease of navigation. 
 
-Anyone can contribute to the **Blocker Solutions** repository. If you encounter a new blocker or solution not yet documented, please create a new markdown file in the appropriate week folder and submit it for review. 
 
 ### Steps for Contributing:
 1. **Check Existing Blockers**: Ensure the problem you're solving is not already documented.
@@ -63,16 +63,14 @@ Anyone can contribute to the **Blocker Solutions** repository. If you encounter 
    - `ERR` for errors
    - `OTHER` if the blocker doesn't fall into any category:
 
-    b. Format the file name using the following convention: `<TYPE_title>.md` (e.g., `ENV_pip_install_error.md`). 
+    b. Format the file name using the following convention: `<TYPE_title>.md` (e.g., `ENV_pip_install_error.md`).
 
-    c. Use the [markdown template](#blocker-solution-template)
-
-3. **Follow the Blocker Solution Format**:
-4. **TODO: UPDATE REVIEW PROCESS - Submit for Review**: Once completed, submit your file for review...
+3. **Follow the [Markdown Template](#blocker-solution-template)**
+4. *****TODO: UPDATE REVIEW PROCESS - Submit for Review**: Once completed, submit your file for review...
 
 ### Example Submission Format:
 - **Title**: Provide a clear and descriptive title for the issue (try to keep it as short as possible).
-- **Description**: A 1-2 sentence description explaining the problem.
+- **Description**: A 2-3 sentence description explaining the problem.
 - **Solution**: A step-by-step guide to resolving the issue, with any necessary screenshots or code snippets.
 - **Documentation Links**: Include links to any external resources that can assist in solving the problem.
 
@@ -80,7 +78,7 @@ Anyone can contribute to the **Blocker Solutions** repository. If you encounter 
 
 ## Blocker Solution Template
 
-Feel free to copy and paste from the `TEMPLATE.md` to ensure consistency. Each markdown file should follow this structure:
+Feel free to copy and paste directly from the `TEMPLATE.md` to maintain consistency. Each markdown file should follow this structure:
 
 ### Title
 A brief, descriptive title that highlights the problem.
@@ -88,7 +86,7 @@ A brief, descriptive title that highlights the problem.
 **Example:** SETUP: Pip Install Error
 
 ### Problem Description
-1-2 sentences that explains the blocker. This description should provide enough context for someone unfamiliar with the issue to understand.
+2-3 sentences that explains the blocker. This description should provide enough context for someone unfamiliar with the issue to understand.
 
 **Example**
 - "I'm trying to set up a Python project, but I'm getting errors when running `pip install -r requirements.txt`. It's preventing the project from installing the necessary dependencies to run properly."
@@ -126,7 +124,7 @@ Include links to any relevant external documentation or resources, such as offic
 
 ## Training Weeks and Blocker Categories
 
-Each week will be focused on different topics. Blockers are categorized and mapped to the <a href="https://github.com/Data-Cohort-2025/class-notes/tree/main/learning%20targets" target="_blank">learning targets</a> to make them easier to locate. Below is a general outline of the topics as currently outlined:
+Each week will be focused on different topics. Blockers are categorized and mapped to the <a href="https://github.com/Data-Cohort-2025/class-notes/tree/main/learning%20targets" target="_blank">learning targets</a> to make them easier to locate. Below is a list of the topics as currently outlined:
 
 - **Week 1**: [Environment Setup & Fundamentals (UNIX, Python, Git)](https://github.com/r-brown1/Week-1)
 - **Week 2**: [PART 1 - Python Data Structures | NumPy & Pandas | Data Cleaning | UNIX Shell Scripting](https://github.com/r-brown1/Week-2)
@@ -149,7 +147,7 @@ Each week will be focused on different topics. Blockers are categorized and mapp
 
 [//]: # (- **Week 12**: []&#40;https://github.com/r-brown1/Week-12&#41;)
 
-For each topic, any blocker files you create should be placed inside their corresponding folder. Blockers may include environment setup errors, syntax issues, bugs, or any other challenges faced when practicing or completing tasks. 
+*****NOTE:** New files should be placed inside folders carefully. Since we may move slower or faster than the structured timeline, please prioritize the blocker topic over the current week.  
 
 ---
 
@@ -157,5 +155,5 @@ For each topic, any blocker files you create should be placed inside their corre
 
 This documentation is a living resource, meant to evolve over time as new blockers are discovered and solutions are provided. By contributing and referencing this guide, we can build a shared knowledge base and support each other. Please feel free to make any changes or additions.
 
-Remember: Every challenge is an opportunity for growth. Let's enjoy this process together!
+**Remember:** Every challenge is an opportunity for growth. Let's enjoy this process together!
 
