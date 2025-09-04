@@ -118,7 +118,7 @@ Include links to any relevant external documentation or resources, such as offic
 
 ## Training Weeks and Blocker Categories
 
-Each week will be focused on different topics. Blockers are categorized and mapped to the [learning targets](https://github.com/Data-Cohort-2025/class-notes/tree/main/learning%20targets) to make them easier to locate. Below is a general outline of the topics as currently outlined:
+Each week will be focused on different topics. Blockers are categorized and mapped to the <a href="https://github.com/Data-Cohort-2025/class-notes/tree/main/learning%20targets" target="_blank">learning targets</a> to make them easier to locate. Below is a general outline of the topics as currently outlined:
 
 - **Week 1**: [Environment Setup & Fundamentals (UNIX, Python, Git)](https://github.com/r-brown1/Week-1)
 - **Week 2**: [PART 1 - Python Data Structures | NumPy & Pandas | Data Cleaning | UNIX Shell Scripting](https://github.com/r-brown1/Week-2)
