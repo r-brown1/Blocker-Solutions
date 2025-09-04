@@ -63,7 +63,7 @@ Anyone can contribute to the repository, and the following conventions are for c
    - `ERR` for errors
    - `OTHER` if the blocker doesn't fall into any category:
 
-    b. Format the file name using the following convention: `<TYPE_title>.md` (e.g., `ENV_pip_install_error.md`).
+    b. Format the file name using the following convention: `<TYPE_title>.md` (e.g., `SETUP_pip_install_error.md`).
 
 3. **Follow the [Markdown Template](#blocker-solution-template)**
 4. *****TODO: UPDATE REVIEW PROCESS - Submit for Review**: Once completed, submit your file for review...
